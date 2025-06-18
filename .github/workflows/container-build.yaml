@@ -64,7 +64,7 @@ jobs:
         with:
           image: ${{ steps.container.outputs.image }}
           tags: ${{ steps.container.outputs.tags }}
-          registry: quay.io/k3rnel-pan1c
+          registry: quay.io/panxatony
           username: ${{ secrets.QUAY_USR }}
           password: ${{ secrets.QUAY_PWD }}
 
